@@ -23,7 +23,8 @@
 		"Air": "resource/Depot/Air.exml",
 		"button_return": "resource/Depot/button_return.exml",
 		"button_enter": "resource/Depot/button_enter.exml",
-		"button_cancel": "resource/Depot/button_cancel.exml"
+		"button_cancel": "resource/Depot/button_cancel.exml",
+		"item_all": "resource/Depot/item_all.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -35,6 +36,7 @@
 		"resource/Depot/Scr_skin.exml",
 		"resource/Depot/Running.exml",
 		"resource/Depot/DepotScene.exml",
+		"resource/Depot/item_all.exml",
 		"resource/Depot/list_item.exml",
 		"resource/eui_skins/ButtonSkin.exml",
 		"resource/eui_skins/CheckBoxSkin.exml",

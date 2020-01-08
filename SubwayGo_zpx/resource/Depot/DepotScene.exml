@@ -6,6 +6,9 @@
 		<e:Scroller id="scr_depot_run" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on" skinName="AirSkin" scaleX="1" scaleY="1" width="394.66" height="475" x="14.01" y="18">
 			<e:List id="list_depot_run" itemRendererSkinName="list_itemSkin" width="393.33" height="475" x="29.65" y="-1.5" anchorOffsetX="0"/>
 		</e:Scroller>
+		<e:Scroller id="scr_depot_all" width="394.66" height="475" x="14" y="18" scaleX="1" scaleY="1" skinName="AirSkin" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="list_depot_all" width="393.33" height="475" itemRendererSkinName="item_allSkin" anchorOffsetX="0"/>
+		</e:Scroller>
 	</e:Panel>
 	<e:Button id="Running" label="运营中" left="106" anchorOffsetY="0" height="85" skinName="RunningSkin" anchorOffsetX="0" width="115" y="-85"/>
 	<e:Button id="All" label="全部" x="260.39" y="-85" height="85" skinName="AllSkin"/>

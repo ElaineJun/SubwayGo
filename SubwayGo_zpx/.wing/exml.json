@@ -1,60 +1,65 @@
 {
-  "16f79a609bd": {
-    "path": "DepotScene.ts",
-    "class": "DepotScene",
-    "parentPath": ""
-  },
-  "16f79c807b5": {
-    "path": "Depot_Running.ts",
-    "class": "Depot_Running",
-    "parentPath": ""
-  },
-  "16f79e10515": {
-    "path": "Depot_All.ts",
-    "class": "Depot_All",
-    "parentPath": ""
-  },
-  "16f7a18022e": {
-    "path": "..\\resource\\Depot\\list_item.ts",
-    "class": "list_item",
-    "parentPath": ""
-  },
-  "16f7df83724": {
-    "path": "..\\resource\\Depot\\Running.ts",
-    "class": "Running",
-    "parentPath": ""
-  },
-  "16f7dfedb09": {
-    "path": "..\\resource\\Depot\\All.ts",
-    "class": "All",
-    "parentPath": ""
-  },
-  "16f7e072d07": {
-    "path": "..\\resource\\Depot\\Scr_skin.ts",
-    "class": "Scr_skin",
-    "parentPath": ""
-  },
-  "16f7e25ce1f": {
-    "path": "..\\resource\\Depot\\Air.ts",
-    "class": "Air",
-    "parentPath": ""
-  },
-  "16f7ebafc1e": {
-    "path": "..\\resource\\Depot\\button_return.ts",
-    "class": "button_return",
-    "parentPath": ""
-  },
-  "16f82c2f142": {
-    "path": "..\\resource\\Depot\\button_enter.ts",
-    "class": "button_enter",
-    "parentPath": ""
-  },
-  "16f8302cd3b": {
-    "path": "..\\resource\\Depot\\button_cancel.ts",
-    "class": "button_cancel",
-    "parentPath": ""
-  },
-  "global": {
-    "globalAutoLayerMarkEnable": false
-  }
+    "16f79a609bd": {
+        "path": "DepotScene.ts",
+        "class": "DepotScene",
+        "parentPath": ""
+    },
+    "16f79c807b5": {
+        "path": "Depot_Running.ts",
+        "class": "Depot_Running",
+        "parentPath": ""
+    },
+    "16f79e10515": {
+        "path": "Depot_All.ts",
+        "class": "Depot_All",
+        "parentPath": ""
+    },
+    "16f7a18022e": {
+        "path": "..\\resource\\Depot\\list_item.ts",
+        "class": "list_item",
+        "parentPath": ""
+    },
+    "16f7df83724": {
+        "path": "..\\resource\\Depot\\Running.ts",
+        "class": "Running",
+        "parentPath": ""
+    },
+    "16f7dfedb09": {
+        "path": "..\\resource\\Depot\\All.ts",
+        "class": "All",
+        "parentPath": ""
+    },
+    "16f7e072d07": {
+        "path": "..\\resource\\Depot\\Scr_skin.ts",
+        "class": "Scr_skin",
+        "parentPath": ""
+    },
+    "16f7e25ce1f": {
+        "path": "..\\resource\\Depot\\Air.ts",
+        "class": "Air",
+        "parentPath": ""
+    },
+    "16f7ebafc1e": {
+        "path": "..\\resource\\Depot\\button_return.ts",
+        "class": "button_return",
+        "parentPath": ""
+    },
+    "16f82c2f142": {
+        "path": "..\\resource\\Depot\\button_enter.ts",
+        "class": "button_enter",
+        "parentPath": ""
+    },
+    "16f8302cd3b": {
+        "path": "..\\resource\\Depot\\button_cancel.ts",
+        "class": "button_cancel",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAutoLayerMarkEnable": false
+    },
+    "16f8448edc9": {
+        "path": "..\\resource\\Depot\\item_all.ts",
+        "class": "item_all",
+        "parentPath": ""
+    }
 }
