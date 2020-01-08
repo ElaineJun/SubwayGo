@@ -1,8 +1,16 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"keys": "yellowBg_png,redBg_png,greenBg_png,green2Bg_png,btnStrategy_png,btnSign_png,btnMessage_png,btnLock_png,btnFriends_png,btnAbout_png,blueBg_png,homeBg_png,imgBrand_png,touxiang_jpg,homeBg_jpg,homeTrainImg_png,homeTrain1Img_jpg",
 			"name": "preload"
+		},
+		{
+			"keys": "toast-bg_png,loadingBg3_jpg,loadingBg2_jpg,loadingBg_png,loading2_png,iconChilun_png",
+			"name": "loading"
+		},
+		{
+			"keys": "",
+			"name": "goods"
 		}
 	],
 	"resources": [
@@ -132,9 +140,124 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "description_json",
+			"url": "config/description.json",
 			"type": "json",
-			"url": "config/description.json"
+			"name": "description_json"
+		},
+		{
+			"url": "art/home/homeBg.png",
+			"type": "image",
+			"name": "homeBg_png"
+		},
+		{
+			"url": "art/loading/loading2.png",
+			"type": "image",
+			"name": "loading2_png"
+		},
+		{
+			"url": "art/loading/loadingBg.png",
+			"type": "image",
+			"name": "loadingBg_png"
+		},
+		{
+			"url": "art/loading/loadingBg2.jpg",
+			"type": "image",
+			"name": "loadingBg2_jpg"
+		},
+		{
+			"url": "art/loading/loadingBg3.jpg",
+			"type": "image",
+			"name": "loadingBg3_jpg"
+		},
+		{
+			"url": "art/loading/toast-bg.png",
+			"type": "image",
+			"name": "toast-bg_png"
+		},
+		{
+			"url": "art/profile/blueBg.png",
+			"type": "image",
+			"name": "blueBg_png"
+		},
+		{
+			"url": "art/profile/btnAbout.png",
+			"type": "image",
+			"name": "btnAbout_png"
+		},
+		{
+			"url": "art/profile/btnFriends.png",
+			"type": "image",
+			"name": "btnFriends_png"
+		},
+		{
+			"url": "art/profile/btnLock.png",
+			"type": "image",
+			"name": "btnLock_png"
+		},
+		{
+			"url": "art/profile/btnMessage.png",
+			"type": "image",
+			"name": "btnMessage_png"
+		},
+		{
+			"url": "art/profile/btnSign.png",
+			"type": "image",
+			"name": "btnSign_png"
+		},
+		{
+			"url": "art/profile/btnStrategy.png",
+			"type": "image",
+			"name": "btnStrategy_png"
+		},
+		{
+			"url": "art/profile/green2Bg.png",
+			"type": "image",
+			"name": "green2Bg_png"
+		},
+		{
+			"url": "art/profile/greenBg.png",
+			"type": "image",
+			"name": "greenBg_png"
+		},
+		{
+			"url": "art/profile/redBg.png",
+			"type": "image",
+			"name": "redBg_png"
+		},
+		{
+			"url": "art/profile/yellowBg.png",
+			"type": "image",
+			"name": "yellowBg_png"
+		},
+		{
+			"url": "art/loading/iconChilun.png",
+			"type": "image",
+			"name": "iconChilun_png"
+		},
+		{
+			"url": "art/home/imgBrand.png",
+			"type": "image",
+			"name": "imgBrand_png"
+		},
+		{
+			"name": "touxiang_jpg",
+			"type": "image",
+			"url": "art/home/touxiang.jpg"
+		},
+		{
+			"name": "homeBg_jpg",
+			"type": "image",
+			"url": "art/home/homeBg.jpg"
+		},
+		{
+			"name": "homeTrainImg_png",
+			"type": "image",
+			"url": "art/home/homeTrainImg.png"
+		},
+		{
+			"name": "homeTrain1Img_jpg",
+			"type": "image",
+			"url": "art/home/homeTrain1Img.jpg"
 		}
 	]
 }
