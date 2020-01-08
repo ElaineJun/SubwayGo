@@ -1,0 +1,234 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,subKu_p_png,green2Bg_png,greenBg_png,redBg_png,yellowBg_png,train1Blue_png,train1Yellow_png,train2Blue_png,train2Red_png,btnDownMupai_png,btnUpMupai_png,frameWood_png,railwaytrack_png,stateGray_png,stateGreen_png,stateYellow_png,storageBg_jpg,btnBack_png,btnIn_png,btnDelete_png",
+			"name": "preload"
+		},
+		{
+			"keys": "subKu_p_png,yellowBg_png,green2Bg_png,greenBg_png,redBg_png,frameWood_png,btnUpMupai_png,btnDownMupai_png,train2Red_png,train1Yellow_png,storageBg_jpg,stateGray_png,railwaytrack_png,stateYellow_png,train1Blue_png,train2Blue_png,stateGreen_png,btnIn_png,btnDelete_png",
+			"name": "depot_picture"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/depot_picture/subKu_p.png",
+			"type": "image",
+			"name": "subKu_p_png"
+		},
+		{
+			"url": "assets/depot_picture/green2Bg.png",
+			"type": "image",
+			"name": "green2Bg_png"
+		},
+		{
+			"url": "assets/depot_picture/greenBg.png",
+			"type": "image",
+			"name": "greenBg_png"
+		},
+		{
+			"url": "assets/depot_picture/redBg.png",
+			"type": "image",
+			"name": "redBg_png"
+		},
+		{
+			"url": "assets/depot_picture/yellowBg.png",
+			"type": "image",
+			"name": "yellowBg_png"
+		},
+		{
+			"url": "assets/depot_picture/train1Blue.png",
+			"type": "image",
+			"name": "train1Blue_png"
+		},
+		{
+			"url": "assets/depot_picture/train1Yellow.png",
+			"type": "image",
+			"name": "train1Yellow_png"
+		},
+		{
+			"url": "assets/depot_picture/train2Blue.png",
+			"type": "image",
+			"name": "train2Blue_png"
+		},
+		{
+			"url": "assets/depot_picture/train2Red.png",
+			"type": "image",
+			"name": "train2Red_png"
+		},
+		{
+			"url": "assets/depot_picture/btnDownMupai.png",
+			"type": "image",
+			"name": "btnDownMupai_png"
+		},
+		{
+			"url": "assets/depot_picture/btnUpMupai.png",
+			"type": "image",
+			"name": "btnUpMupai_png"
+		},
+		{
+			"url": "assets/depot_picture/frameWood.png",
+			"type": "image",
+			"name": "frameWood_png"
+		},
+		{
+			"url": "assets/depot_picture/railwaytrack.png",
+			"type": "image",
+			"name": "railwaytrack_png"
+		},
+		{
+			"url": "assets/depot_picture/stateGray.png",
+			"type": "image",
+			"name": "stateGray_png"
+		},
+		{
+			"url": "assets/depot_picture/stateGreen.png",
+			"type": "image",
+			"name": "stateGreen_png"
+		},
+		{
+			"url": "assets/depot_picture/stateYellow.png",
+			"type": "image",
+			"name": "stateYellow_png"
+		},
+		{
+			"url": "assets/depot_picture/storageBg.jpg",
+			"type": "image",
+			"name": "storageBg_jpg"
+		},
+		{
+			"url": "assets/depot_picture/btnBack.png",
+			"type": "image",
+			"name": "btnBack_png"
+		},
+		{
+			"url": "assets/depot_picture/btnIn.png",
+			"type": "image",
+			"name": "btnIn_png"
+		},
+		{
+			"url": "assets/depot_picture/btnDelete.png",
+			"type": "image",
+			"name": "btnDelete_png"
+		}
+	]
+}

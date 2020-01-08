@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="list_itemSkin" width="385" height="143" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16f7a18022e" ></w:Config>
+	<e:Button id="cancel_button" label="Button" x="85" y="27.17" width="40" height="40" skinName="button_cancelSkin"/>
+	<e:Button id="enter_buton" label="进入" x="85" y="27.17" width="40" height="40" skinName="button_enterSkin"/>
+	<e:Image id="train_image" height="89.33" y="0" anchorOffsetX="0" anchorOffsetY="0" left="79" right="0" source="{data.image}"/>
+	<e:Label text="{data.money}" x="15.5" y="90.66" textColor="0xc18f20"/>
+</e:Skin>
