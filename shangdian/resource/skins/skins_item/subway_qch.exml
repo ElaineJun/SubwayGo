@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="subway_qch" width="115" height="85" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down"  width.up="115" height.up="85" width.down="115" height.down="72">
+	<e:Image source="btnDownMupai_png" includeIn="down" width="115" height="72" left="0" top="0"/>
+	<e:Label text="地铁" includeIn="down" x="27.5" y="36"/>
+	<e:Image source="btnUpMupai_png" includeIn="up" width="115" height="85" left="0" top="0"/>
+	<e:Label text="地铁" includeIn="up" x="27.5" y="42.5"/>
+</e:Skin>
