@@ -170,7 +170,9 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
-        this.addChild(new MainScene());
+        //this.addChild(new MainScene());
+        this.addChild(new DepotScene());
+        // this.addChild(new MainScene());
     };
     return Main;
 }(eui.UILayer));

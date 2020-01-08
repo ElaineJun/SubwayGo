@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RunningSkin" width="115" height="85" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  width.down="115" height.down="72">
+	<w:Config id="16f7df83724" ></w:Config>
+	<e:Image source="btnDownMupai_png" includeIn="down" left="0" right="0" top="0" bottom="0"/>
+	<e:Label text="运营中" x="12" y="38" textColor="0x703A01" includeIn="down" anchorOffsetX="0" width="91" anchorOffsetY="0" height="37" size="30"/>
+	<e:Image source="btnUpMupai_png" includeIn="up" top="0" bottom="0" left="0" right="0"/>
+	<e:Label text="运营中" x="12.5" y="37.5" textColor="0x703A01" includeIn="up"/>
+	<e:Image source="btnUpMupai_png" top="0" bottom="0" left="0" right="0" includeIn=""/>
+	<e:Label text="运营中" x="12.5" y="42.5" textColor="0x703a01" includeIn=""/>
+</e:Skin>

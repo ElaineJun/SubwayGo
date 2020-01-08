@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DepotSkin" width="400" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
-	<w:Config id="16f7995976a" ></w:Config>
-	<e:Image top="0" bottom="0" left="0" right="0" source=""/>
-</e:Skin>
