@@ -19,12 +19,12 @@ class DepotScene extends eui.Component implements  eui.UIComponent {
 	}
 
 	private dataArr:any[]=[
-			{image:"resource/assets/depot_picture/train1Blue.png",money:"运营量：800",name:"二号线"},
-			{image:"resource/assets/depot_picture/train2Red.png",money:"运营量：700",name:"一号线"},
-			{image:"resource/assets/depot_picture/train2Blue.png",money:"运营量：600",name:"通鹏号"},
-			{image:"resource/assets/depot_picture/train2Red.png",money:"运营量：500",name:"七号线"},
-			{image:"resource/assets/depot_picture/train1Yellow.png",money:"运营量：400",name:"扬眉线"},
-			{image:"resource/assets/depot_picture/train1Blue.png",money:"运营量：300",name:"四号线"},
+			{image:"resource/assets/depot_picture/train1Blue.png",money:"运营量：800",name:"二号线",isNull:0},
+			{image:"resource/assets/depot_picture/train2Red.png",money:"运营量：700",name:"一号线",isNull:1},
+			{image:"resource/assets/depot_picture/train2Blue.png",money:"运营量：600",name:"通鹏号",isNull:1},
+			{image:"resource/assets/depot_picture/train2Red.png",money:"运营量：500",name:"七号线",isNull:0},
+			{image:"resource/assets/depot_picture/train1Yellow.png",money:"运营量：400",name:"扬眉线",isNull:1},
+			{image:"resource/assets/depot_picture/train1Blue.png",money:"运营量：300",name:"四号线",isNull:0},
 		]
 	private dataArr_all:any[]=[
 		{image:"resource/assets/depot_picture/train1Blue.png",state:"resource/assets/depot_picture/stateGreen.png",name:"二号线"},
@@ -39,17 +39,22 @@ class DepotScene extends eui.Component implements  eui.UIComponent {
 		super.childrenCreated();
 
 		
-		this.Running.addEventListener(egret.TouchEvent.TOUCH_END,this.onTouch_running,this);
-		this.All.addEventListener(egret.TouchEvent.TOUCH_END,this.onTouch_all,this);
-		this.button_return.addEventListener(egret.TouchEvent.TOUCH_END,this.return_button,this);
+		this.Running.addEventListener(egret.TouchEvent.TOUCH_TAP,this.onTouch_running,this);
+		this.All.addEventListener(egret.TouchEvent.TOUCH_TAP,this.onTouch_all,this);
+		this.button_return.addEventListener(egret.TouchEvent.TOUCH_TAP,this.return_button,this);
 		this.addEventListener(egret.Event.ENTER_FRAME,this.enter_move,this);
 		
 
 		this.list_depot_all.visible=false;
 		let EUIArr_all:eui.ArrayCollection = new eui.ArrayCollection(this.dataArr_all);
 		this.list_depot_all.dataProvider=EUIArr_all;
-		let EUIArr:eui.ArrayCollection = new eui.ArrayCollection(this.dataArr);
+		this.list_depot_all.touchEnabled=true;
+		this.list_depot_all.itemRenderer=item_all;
+		
 		// this.p.touchEnabled=true;
+
+
+		let EUIArr:eui.ArrayCollection = new eui.ArrayCollection(this.dataArr);
 		this.list_depot_run.touchEnabled=true;
 		this.list_depot_run.dataProvider=EUIArr;
 		this.list_depot_run.itemRenderer=item_run;
@@ -61,9 +66,9 @@ class DepotScene extends eui.Component implements  eui.UIComponent {
 	
 	
 	private onTouch_running(event:egret.TouchEvent){
-		if(this.list_depot_run.visible==true&&this.list_depot_all.visible==false)
+		if(this.list_depot_run.visible==false&&this.list_depot_all.visible==true)
 		{
-			this.list_depot_run.visible=false;this.list_depot_all.visible=true;
+			this.list_depot_run.visible=true;this.list_depot_all.visible=false;
 		}
 		// else if(this.list_depot_run.visible==false)
 		// {this.list_depot_run.visible=true;}
@@ -75,10 +80,10 @@ class DepotScene extends eui.Component implements  eui.UIComponent {
 		// tw.to({x:300,y:400},500);
 	
 	}
-	private onTouch_all(event:egret.TouchEvent){
-		if(this.list_depot_run.visible==false&&this.list_depot_all.visible==true)
+	private onTouch_all(event:egret.TouchEvent){	
+		if(this.list_depot_run.visible==true&&this.list_depot_all.visible==false)
 		{
-			this.list_depot_run.visible=true;this.list_depot_all.visible=false;
+			this.list_depot_run.visible=false;this.list_depot_all.visible=true;
 		}
 	
 	}

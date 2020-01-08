@@ -12,6 +12,7 @@
 	"game": [
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/DepotScene.js",
+		"bin-debug/item_all.js",
 		"bin-debug/item_run.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",

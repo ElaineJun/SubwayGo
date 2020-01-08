@@ -13,12 +13,12 @@ var DepotScene = (function (_super) {
     function DepotScene() {
         var _this = _super.call(this) || this;
         _this.dataArr = [
-            { image: "resource/assets/depot_picture/train1Blue.png", money: "运营量：800", name: "二号线" },
-            { image: "resource/assets/depot_picture/train2Red.png", money: "运营量：700", name: "一号线" },
-            { image: "resource/assets/depot_picture/train2Blue.png", money: "运营量：600", name: "通鹏号" },
-            { image: "resource/assets/depot_picture/train2Red.png", money: "运营量：500", name: "七号线" },
-            { image: "resource/assets/depot_picture/train1Yellow.png", money: "运营量：400", name: "扬眉线" },
-            { image: "resource/assets/depot_picture/train1Blue.png", money: "运营量：300", name: "四号线" },
+            { image: "resource/assets/depot_picture/train1Blue.png", money: "运营量：800", name: "二号线", isNull: 0 },
+            { image: "resource/assets/depot_picture/train2Red.png", money: "运营量：700", name: "一号线", isNull: 1 },
+            { image: "resource/assets/depot_picture/train2Blue.png", money: "运营量：600", name: "通鹏号", isNull: 1 },
+            { image: "resource/assets/depot_picture/train2Red.png", money: "运营量：500", name: "七号线", isNull: 0 },
+            { image: "resource/assets/depot_picture/train1Yellow.png", money: "运营量：400", name: "扬眉线", isNull: 1 },
+            { image: "resource/assets/depot_picture/train1Blue.png", money: "运营量：300", name: "四号线", isNull: 0 },
         ];
         _this.dataArr_all = [
             { image: "resource/assets/depot_picture/train1Blue.png", state: "resource/assets/depot_picture/stateGreen.png", name: "二号线" },
@@ -35,15 +35,17 @@ var DepotScene = (function (_super) {
     };
     DepotScene.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
-        this.Running.addEventListener(egret.TouchEvent.TOUCH_END, this.onTouch_running, this);
-        this.All.addEventListener(egret.TouchEvent.TOUCH_END, this.onTouch_all, this);
-        this.button_return.addEventListener(egret.TouchEvent.TOUCH_END, this.return_button, this);
+        this.Running.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouch_running, this);
+        this.All.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouch_all, this);
+        this.button_return.addEventListener(egret.TouchEvent.TOUCH_TAP, this.return_button, this);
         this.addEventListener(egret.Event.ENTER_FRAME, this.enter_move, this);
         this.list_depot_all.visible = false;
         var EUIArr_all = new eui.ArrayCollection(this.dataArr_all);
         this.list_depot_all.dataProvider = EUIArr_all;
-        var EUIArr = new eui.ArrayCollection(this.dataArr);
+        this.list_depot_all.touchEnabled = true;
+        this.list_depot_all.itemRenderer = item_all;
         // this.p.touchEnabled=true;
+        var EUIArr = new eui.ArrayCollection(this.dataArr);
         this.list_depot_run.touchEnabled = true;
         this.list_depot_run.dataProvider = EUIArr;
         this.list_depot_run.itemRenderer = item_run;
@@ -51,9 +53,9 @@ var DepotScene = (function (_super) {
         //this.list_depot_run.addEventListener(eui.ItemTapEvent.ITEM_TAP,this.list_touch,this);
     };
     DepotScene.prototype.onTouch_running = function (event) {
-        if (this.list_depot_run.visible == true && this.list_depot_all.visible == false) {
-            this.list_depot_run.visible = false;
-            this.list_depot_all.visible = true;
+        if (this.list_depot_run.visible == false && this.list_depot_all.visible == true) {
+            this.list_depot_run.visible = true;
+            this.list_depot_all.visible = false;
         }
         // else if(this.list_depot_run.visible==false)
         // {this.list_depot_run.visible=true;}
@@ -65,9 +67,9 @@ var DepotScene = (function (_super) {
         // tw.to({x:300,y:400},500);
     };
     DepotScene.prototype.onTouch_all = function (event) {
-        if (this.list_depot_run.visible == false && this.list_depot_all.visible == true) {
-            this.list_depot_run.visible = true;
-            this.list_depot_all.visible = false;
+        if (this.list_depot_run.visible == true && this.list_depot_all.visible == false) {
+            this.list_depot_run.visible = false;
+            this.list_depot_all.visible = true;
         }
     };
     DepotScene.prototype.return_button = function (event) {

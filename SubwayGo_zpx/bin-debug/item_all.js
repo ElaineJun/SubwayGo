@@ -8,54 +8,44 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-var item_run = (function (_super) {
-    __extends(item_run, _super);
-    function item_run() {
+var item_all = (function (_super) {
+    __extends(item_all, _super);
+    function item_all() {
         var _this = _super.call(this) || this;
         _this.touch_flag = 0;
         // 把这个 类和皮肤 联系起来
-        _this.skinName = 'resource/Depot/list_item.exml';
-        _this.enter_buton.visible = false;
-        _this.cancel_button.visible = false;
+        _this.skinName = 'resource/Depot/item_all.exml';
+        _this.shuxing_button.visible = false;
+        _this.run_button.visible = false;
         _this.addEventListener(eui.UIEvent.CREATION_COMPLETE, _this.onComplete, _this);
         //this.addEventListener(egret.TouchEvent.TOUCH_BEGIN,this.ontouchOther,this);
         _this.train_image.addEventListener(egret.TouchEvent.TOUCH_TAP, _this.ontouch, _this);
         return _this;
     }
-    item_run.prototype.onComplete = function () {
+    item_all.prototype.onComplete = function () {
         //this.train_image.source
         this.data;
     };
     // 当数据改变时，更新视图
-    item_run.prototype.dataChanged = function () {
+    item_all.prototype.dataChanged = function () {
         // isSeleted 是我们提供数据的某个字段
-        this.isNull = this.data.isNull;
-        console.log(this.data.isNull);
-        if (this.isNull == 1) {
-            this.train_image.visible = false;
-            this.name_label.visible = false;
-            this.money_label.visible = false;
-        }
-        else if (this.isNull == 0) {
-            this.train_Null.visible = false;
-        }
     };
-    item_run.prototype.ontouch = function () {
+    item_all.prototype.ontouch = function () {
         // isSeleted 是我们提供数据的某个字段
         //console.log("777");
         if (this.touch_flag == 0) {
-            this.enter_buton.visible = true;
-            this.cancel_button.visible = true;
-            var tw_enter = egret.Tween.get(this.enter_buton);
-            var tw_cancel = egret.Tween.get(this.cancel_button);
+            this.run_button.visible = true;
+            this.shuxing_button.visible = true;
+            var tw_enter = egret.Tween.get(this.run_button);
+            var tw_cancel = egret.Tween.get(this.shuxing_button);
             tw_enter.to({ x: 35, y: 6 }, 150);
             tw_cancel.to({ x: 35, y: 51 }, 150);
             this.touch_flag = 1;
             //item_run.all_flag=1;
         }
         else if (this.touch_flag == 1) {
-            var tw_enter = egret.Tween.get(this.enter_buton);
-            var tw_cancel = egret.Tween.get(this.cancel_button);
+            var tw_enter = egret.Tween.get(this.run_button);
+            var tw_cancel = egret.Tween.get(this.shuxing_button);
             tw_enter.to({ x: 90, y: 27.17 }, 200).call(this.EndMove, this);
             tw_cancel.to({ x: 90, y: 27.17 }, 200);
             this.touch_flag = 0;
@@ -69,12 +59,11 @@ var item_run = (function (_super) {
     // protected ontouchOther(){
     // 	console.log("777");
     // }
-    item_run.prototype.EndMove = function () {
-        this.enter_buton.visible = false;
-        this.cancel_button.visible = false;
+    item_all.prototype.EndMove = function () {
+        this.run_button.visible = false;
+        this.shuxing_button.visible = false;
     };
-    item_run.all_flag = 0;
-    return item_run;
+    return item_all;
 }(eui.ItemRenderer));
-__reflect(item_run.prototype, "item_run");
-//# sourceMappingURL=item_run.js.map
+__reflect(item_all.prototype, "item_all");
+//# sourceMappingURL=item_all.js.map
