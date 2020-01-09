@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="card_list" width="95" height="143" xmlns:e="http://ns.egret.com/eui">
-	<e:Image width="83" height="87" x="6.5" y="9" anchorOffsetX="0" anchorOffsetY="0" source="{data.image}"/>
-	<e:Label text="{data.price}" y="112" anchorOffsetX="0" width="75" anchorOffsetY="0" height="21" size="15" horizontalCenter="0" textColor="0xf90c58"/>
-</e:Skin>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="subway_list" width="305" height="100" xmlns:e="http://ns.egret.com/eui">
-	<e:Image width="221" height="79" anchorOffsetX="0" anchorOffsetY="0" left="0" verticalCenter="0" source="{data.image}"/>
-	<e:Label anchorOffsetX="0" width="80" anchorOffsetY="0" height="16" right="0" text="{data.price}" size="15" verticalCenter="0" textColor="0xf2106c"/>
-</e:Skin>

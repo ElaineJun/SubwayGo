@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,subKu_p_png,green2Bg_png,greenBg_png,redBg_png,yellowBg_png,train1Blue_png,train1Yellow_png,train2Blue_png,train2Red_png,btnDownMupai_png,btnUpMupai_png,frameWood_png,railwaytrack_png,stateGray_png,stateGreen_png,stateYellow_png,storageBg_jpg,btnBack_png,btnIn_png,btnDelete_png,trainNull_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,subKu_p_png,green2Bg_png,greenBg_png,redBg_png,yellowBg_png,train1Blue_png,train1Yellow_png,train2Blue_png,train2Red_png,btnDownMupai_png,btnUpMupai_png,frameWood_png,railwaytrack_png,stateGray_png,stateGreen_png,stateYellow_png,storageBg_jpg,btnBack_png,btnIn_png,btnDelete_png,trainNull_png,imgMessageBox_png,btnCancel_png,btnYes_png,trainFriends_png,btnDetail_png,btnRun_png,train0Blue_png,train3Blue_png,train4Blue_png",
 			"name": "preload"
 		},
 		{
@@ -234,6 +234,51 @@
 			"url": "assets/depot_picture/trainNull.png",
 			"type": "image",
 			"name": "trainNull_png"
+		},
+		{
+			"url": "assets/depot_picture/imgMessageBox.png",
+			"type": "image",
+			"name": "imgMessageBox_png"
+		},
+		{
+			"url": "assets/depot_picture/btnCancel.png",
+			"type": "image",
+			"name": "btnCancel_png"
+		},
+		{
+			"url": "assets/depot_picture/btnYes.png",
+			"type": "image",
+			"name": "btnYes_png"
+		},
+		{
+			"url": "assets/depot_picture/trainFriends.png",
+			"type": "image",
+			"name": "trainFriends_png"
+		},
+		{
+			"url": "assets/depot_picture/btnDetail.png",
+			"type": "image",
+			"name": "btnDetail_png"
+		},
+		{
+			"url": "assets/depot_picture/btnRun.png",
+			"type": "image",
+			"name": "btnRun_png"
+		},
+		{
+			"name": "train0Blue_png",
+			"type": "image",
+			"url": "assets/depot_picture/train0Blue.png"
+		},
+		{
+			"name": "train3Blue_png",
+			"type": "image",
+			"url": "assets/depot_picture/train3Blue.png"
+		},
+		{
+			"name": "train4Blue_png",
+			"type": "image",
+			"url": "assets/depot_picture/train4Blue.png"
 		}
 	]
 }

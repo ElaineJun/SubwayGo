@@ -20,6 +20,7 @@ var item_all = (function (_super) {
         _this.addEventListener(eui.UIEvent.CREATION_COMPLETE, _this.onComplete, _this);
         //this.addEventListener(egret.TouchEvent.TOUCH_BEGIN,this.ontouchOther,this);
         _this.train_image.addEventListener(egret.TouchEvent.TOUCH_TAP, _this.ontouch, _this);
+        _this.run_button.addEventListener(egret.TouchEvent.TOUCH_TAP, _this.to_run, _this);
         return _this;
     }
     item_all.prototype.onComplete = function () {
@@ -49,19 +50,14 @@ var item_all = (function (_super) {
             tw_enter.to({ x: 90, y: 27.17 }, 200).call(this.EndMove, this);
             tw_cancel.to({ x: 90, y: 27.17 }, 200);
             this.touch_flag = 0;
-            //item_run.all_flag=0;
         }
-        // var enter_x=this.enter_buton.x;
-        // var enter_y=this.enter_buton.y;
-        // var cancel_x=this.cancel_buton.x;
-        // var cancel_y=this.cancel_buton.y;
     };
-    // protected ontouchOther(){
-    // 	console.log("777");
-    // }
     item_all.prototype.EndMove = function () {
         this.run_button.visible = false;
         this.shuxing_button.visible = false;
+    };
+    item_all.prototype.to_run = function () {
+        this.state_image.source = "resource/assets/depot_picture/stateGreen.png";
     };
     return item_all;
 }(eui.ItemRenderer));

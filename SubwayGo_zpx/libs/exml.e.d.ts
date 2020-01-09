@@ -8,11 +8,19 @@ declare class button_enterSkin extends eui.Skin{
 }
 declare class button_returnSkin extends eui.Skin{
 }
+declare class button_runSkin extends eui.Skin{
+}
+declare class button_shuxingSkin extends eui.Skin{
+}
 declare class DepotSceneSkin extends eui.Skin{
 }
 declare class item_allSkin extends eui.Skin{
 }
 declare class list_itemSkin extends eui.Skin{
+}
+declare class queding_qch extends eui.Skin{
+}
+declare class quxiao_qch extends eui.Skin{
 }
 declare class RunningSkin extends eui.Skin{
 }

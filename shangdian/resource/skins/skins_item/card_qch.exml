@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="card_qch" width="115" height="85" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down"  width.up="115" height.up="85" width.down="115" height.down="75">
-	<e:Image source="btnDownMupai_png" includeIn="down" x="-1" y="1" width="115" height="75"/>
-	<e:Label text="卡片" includeIn="down" x="27.5" y="38.5"/>
-	<e:Image source="btnUpMupai_png" includeIn="up" x="0" y="0" width="115" height="85"/>
-	<e:Label text="卡片" includeIn="up" x="27.5" y="42.5"/>
-</e:Skin>

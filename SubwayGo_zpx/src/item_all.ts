@@ -1,7 +1,7 @@
 class item_all extends eui.ItemRenderer{
 	// 选择框
 	public train_image:eui.Image;
-    
+    public state_image:eui.Image;
 	public shuxing_button:eui.Button;
 	public run_button:eui.Button;
     
@@ -16,6 +16,7 @@ class item_all extends eui.ItemRenderer{
 		this.addEventListener(eui.UIEvent.CREATION_COMPLETE,this.onComplete,this);
 		//this.addEventListener(egret.TouchEvent.TOUCH_BEGIN,this.ontouchOther,this);
 		this.train_image.addEventListener(egret.TouchEvent.TOUCH_TAP,this.ontouch,this);
+		this.run_button.addEventListener(egret.TouchEvent.TOUCH_TAP,this.to_run,this);
 	}
 	private onComplete() {
 		//this.train_image.source
@@ -44,21 +45,14 @@ class item_all extends eui.ItemRenderer{
 			tw_enter.to({x:90,y:27.17},200).call(this.EndMove,this);
 			tw_cancel.to({x:90,y:27.17},200);
 			this.touch_flag=0;
-			//item_run.all_flag=0;
 		}
-		// var enter_x=this.enter_buton.x;
-		// var enter_y=this.enter_buton.y;
-		// var cancel_x=this.cancel_buton.x;
-		// var cancel_y=this.cancel_buton.y;
-		
-		
+
 	}
-	// protected ontouchOther(){
-	// 	console.log("777");
-		
-	// }
 	protected EndMove(){
 		this.run_button.visible=false;
 		this.shuxing_button.visible=false;
+	}
+	protected to_run(){
+		this.state_image.source="resource/assets/depot_picture/stateGreen.png"
 	}
 }

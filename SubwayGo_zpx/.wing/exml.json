@@ -61,5 +61,15 @@
         "path": "..\\resource\\Depot\\item_all.ts",
         "class": "item_all",
         "parentPath": ""
+    },
+    "16f88510138": {
+        "path": "..\\resource\\Depot\\button_run.ts",
+        "class": "button_run",
+        "parentPath": ""
+    },
+    "16f885186ab": {
+        "path": "..\\resource\\Depot\\button_shuxing.ts",
+        "class": "button_shuxing",
+        "parentPath": ""
     }
 }
