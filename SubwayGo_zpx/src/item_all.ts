@@ -4,7 +4,7 @@ class item_all extends eui.ItemRenderer{
     public state_image:eui.Image;
 	public shuxing_button:eui.Button;
 	public run_button:eui.Button;
-    
+    public state_flag:any=3;
     private touch_flag:any=0;
 
 	public constructor() {
@@ -25,6 +25,14 @@ class item_all extends eui.ItemRenderer{
 	// 当数据改变时，更新视图
 	protected dataChanged() {
 		// isSeleted 是我们提供数据的某个字段
+		if(this.state_flag==3){
+			this.state_flag=this.data.state_flag;
+			if(this.state_flag==0){
+				this.state_image.source="resource/assets/depot_picture/stateGray.png";
+			}else if(this.state_flag==1){
+				this.state_image.source="resource/assets/depot_picture/stateGreen.png";
+			}
+		}
 	}
 	protected ontouch() {
 		// isSeleted 是我们提供数据的某个字段
@@ -53,6 +61,7 @@ class item_all extends eui.ItemRenderer{
 		this.shuxing_button.visible=false;
 	}
 	protected to_run(){
-		this.state_image.source="resource/assets/depot_picture/stateGreen.png"
+		this.state_flag=1;
+		this.state_image.source="resource/assets/depot_picture/stateGreen.png";
 	}
 }

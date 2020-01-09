@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="DepotSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="16f79a609bd" ></w:Config>
-	<e:Image source="frameWood_png" x="24.34" y="168" width="422.66" height="508"/>
-	<e:Scroller id="scr_depot_run" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on" skinName="AirSkin" scaleX="1" scaleY="1" width="394.66" height="453.67" x="38.34" y="195.33">
-		<e:List id="list_depot_run" itemRendererSkinName="list_itemSkin" width="393.33" height="475" x="29.65" y="-1.5" anchorOffsetX="0"/>
+	<e:Image source="frameWood_png" x="24.34" y="104" width="422.66" height="665.33"/>
+	<e:Scroller id="scr_depot_run" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on" skinName="AirSkin" scaleX="1" scaleY="1" width="394.66" height="600.64" x="38.34" y="133.21">
+		<e:List id="list_depot_run" itemRendererSkinName="list_itemSkin" width="393.33" height="600.64" x="29.65" y="-1.5" anchorOffsetX="0"/>
 	</e:Scroller>
-	<e:Scroller id="scr_depot_all" width="394.66" height="453.67" x="38.34" y="195.33" scaleX="1" scaleY="1" skinName="AirSkin" scrollPolicyH="off" scrollPolicyV="on">
-		<e:List id="list_depot_all" width="393.33" height="475" itemRendererSkinName="item_allSkin" anchorOffsetX="0" x="222.05" y="346.67"/>
+	<e:Scroller id="scr_depot_all" width="394.66" height="600.64" x="38.34" y="133.21" scaleX="1" scaleY="1" skinName="AirSkin" scrollPolicyH="off" scrollPolicyV="on" anchorOffsetY="0">
+		<e:List id="list_depot_all" width="393.33" height="600.64" itemRendererSkinName="item_allSkin" anchorOffsetX="0" x="0" y="36.36" anchorOffsetY="0"/>
 	</e:Scroller>
 
-	<e:Button id="Running" label="运营中" left="106" anchorOffsetY="0" height="85" skinName="RunningSkin" anchorOffsetX="0" width="115" y="-85"/>
-	<e:Button id="All" label="全部" x="260.39" y="-85" height="85" skinName="AllSkin"/>
-	<e:Button id="button_return" label="Button" x="61" y="133" anchorOffsetX="0" width="45" anchorOffsetY="0" height="35" skinName="button_returnSkin"/>
+	<e:Button id="Running" label="运营中" left="91" anchorOffsetY="0" height="85" skinName="RunningSkin" anchorOffsetX="0" width="115" y="0"/>
+	<e:Button id="All" label="全部" x="260.39" y="0" height="85" skinName="AllSkin"/>
+	<e:Button id="button_return" label="Button" x="1.84" y="0" anchorOffsetX="0" width="51.07" anchorOffsetY="0" height="51.67" skinName="button_returnSkin"/>
 	<e:Panel id="Tip" width="277.34" height="168" x="106" y="316" anchorOffsetX="0" anchorOffsetY="0" skinName="Scr_skinSkin">
 		<e:Button id="tip_confim" label="Button" x="31.67" y="124.84" anchorOffsetX="0" width="98" anchorOffsetY="0" height="45" skinName="queding_qch"/>
 		<e:Button id="tip_cancel" label="Button" x="154.39" y="124.67" anchorOffsetX="0" width="98" anchorOffsetY="0" height="43" skinName="quxiao_qch"/>

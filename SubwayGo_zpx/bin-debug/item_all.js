@@ -12,6 +12,7 @@ var item_all = (function (_super) {
     __extends(item_all, _super);
     function item_all() {
         var _this = _super.call(this) || this;
+        _this.state_flag = 3;
         _this.touch_flag = 0;
         // 把这个 类和皮肤 联系起来
         _this.skinName = 'resource/Depot/item_all.exml';
@@ -30,6 +31,15 @@ var item_all = (function (_super) {
     // 当数据改变时，更新视图
     item_all.prototype.dataChanged = function () {
         // isSeleted 是我们提供数据的某个字段
+        if (this.state_flag == 3) {
+            this.state_flag = this.data.state_flag;
+            if (this.state_flag == 0) {
+                this.state_image.source = "resource/assets/depot_picture/stateGray.png";
+            }
+            else if (this.state_flag == 1) {
+                this.state_image.source = "resource/assets/depot_picture/stateGreen.png";
+            }
+        }
     };
     item_all.prototype.ontouch = function () {
         // isSeleted 是我们提供数据的某个字段
@@ -57,6 +67,7 @@ var item_all = (function (_super) {
         this.shuxing_button.visible = false;
     };
     item_all.prototype.to_run = function () {
+        this.state_flag = 1;
         this.state_image.source = "resource/assets/depot_picture/stateGreen.png";
     };
     return item_all;
