@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mbtnStrategy" width="75" height="75" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down"  width.down="85" height.down="85">
+	<e:Image source="green2Bg_png" includeIn="up" left="0" top="0"/>
+	<e:Image source="btnStrategy_png" includeIn="up" x="15" y="10"/>
+	<e:Image source="green2Bg_png" y="2" width.down="85" height.down="85" includeIn="down" width="85" height="85"/>
+	<e:Image source="btnStrategy_png" x="20" y="15" x.down="15" y.down="13" anchorOffsetX.down="0" width.down="55" anchorOffsetY.down="0" height.down="63" includeIn="down" anchorOffsetX="0" width="52" anchorOffsetY="0" height="60"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AllSkin" width="115" height="85" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down"  height.down="72">
+	<w:Config id="16f7dfedb09" ></w:Config>
+	<e:Image source="btnUpMupai_png" includeIn="up" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="btnDownMupai_png" includeIn="down" top="0" bottom="0" left="0" right="0"/>
+	<e:Label text="全 部" x="23" y="39.5" textColor="0x703A01" includeIn="down"/>
+	<e:Label text="全 部" x="23" y="37.5" textColor="0x703A01" includeIn="up"/>
+</e:Skin>

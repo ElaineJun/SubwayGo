@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="apple" width="40" height="40" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up" >
+	<e:Image source="apple_png" y="0" width="40" height="40"/>
+</e:Skin>

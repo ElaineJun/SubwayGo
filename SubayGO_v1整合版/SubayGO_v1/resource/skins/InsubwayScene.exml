@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16f7fd96b02" ></w:Config>
+	<e:Image id="mbtnbackground" source="background_png" x="0" y="0" width="480" height="800"/>
+	<e:Image width="300" height="150" x="90" y="0" anchorOffsetX="0" anchorOffsetY="0" source="imgBrands_png"/>
+	<e:Image id="mbtntouxiangs" source="touxiang_jpg" x="117" y="45.5" width="83" height="83"/>
+	<e:Label text="昵称:" x="201" y="51" width="64" height="23" size="20" textColor="0x0a0202" bold="true" verticalAlign="middle"/>
+	<e:Label text="总碳量：" x="201" y="87" height="23" size="20" textColor="0x0a0101" fontFamily="Arial" bold="true" verticalAlign="middle" width="71"/>
+	<e:Label id="ID_names" text="TiZhou" x="266" y="51" width="96" height="25" bold="true" verticalAlign="middle" size="20" textColor="0x0e8e1d"/>
+	<e:Label id="total_energynums" text="1000" x="282" y="86" width="81" height="25" size="20" bold="true" verticalAlign="middle" textColor="0x2b9125"/>
+	<e:ToggleButton id="mbtnapple" label="ToggleButton" x="30" y="760" width="40" height="40" skinName="apple"/>
+	<e:ToggleButton id="mbtnbanana" label="ToggleButton" x="133" y="765" anchorOffsetX="0" width="35" anchorOffsetY="0" height="31" skinName="banana"/>
+	<e:ToggleButton id="mbtnyilaguan" label="ToggleButton" x="242" y="760" width="40" height="40" skinName="yilaguan"/>
+	<e:ToggleButton id="mbtnzhi" label="ToggleButton" x="342" y="760" width="40" height="40" skinName="zhi"/>
+	<e:Button id="button_return" label="" width="50" height="50" skinName="button_returnSkin" left="0" top="0"/>
+</e:Skin>
