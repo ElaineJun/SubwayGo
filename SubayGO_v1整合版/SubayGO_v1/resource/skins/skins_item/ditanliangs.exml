@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ditanliangs" width="480" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="mbtntouxiangs" source="touxiang_jpg" x="0" y="0" anchorOffsetX="-1" anchorOffsetY="-1" width="80" height="80"/>
+</e:Skin>

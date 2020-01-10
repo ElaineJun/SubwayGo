@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mbtnstage" width="150" height="50" currentState="up" xmlns:e="http://ns.egret.com/eui"   states="up,down"  width.down="160" height.down="60">
+	<e:Image source="btnSign_png" includeIn="down" width="160" height="60" left="0" top="0"/>
+	<e:Label text="地铁库" includeIn="down" width="160" height="60" left="0" top="0" bold="true" size="35" verticalAlign="middle" textAlign="center" textColor="0x563010" fontFamily="KaiTi"/>
+	<e:Image source="btnSign_png" includeIn="up" width="150" height="50" left="0" top="0"/>
+	<e:Label text="地铁库" includeIn="up" textColor="0x563010" bold="true" verticalAlign="middle" fontFamily="KaiTi" width="150" height="50" left="0" top="0" textAlign="center"/>
+</e:Skin>

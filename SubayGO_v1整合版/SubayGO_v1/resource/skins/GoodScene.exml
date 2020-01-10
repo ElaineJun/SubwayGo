@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="shangdian_qchSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16f7f455ee4" ></w:Config>
+	<e:Image source="storageBg_jpg" left="0" top="0"/>
+	<e:Button id="btn_subway" label="" y="178" skinName="subway_qch" right="0"/>
+	<e:Image source="frameWood_png" x="58.5" y="226.67" anchorOffsetX="0" width="361.66" anchorOffsetY="0" height="542.66"/>
+	<e:Button id="btn_return" label="" x="0" y="0" anchorOffsetX="0" width="39" anchorOffsetY="0" height="50" skinName="button_returnSkin">
+	</e:Button>
+	<e:Scroller id="scr_card" width="308" height="487" x="86" y="239" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list_card" itemRendererSkinName="card_list">
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Scroller id="scr_subway" width="323" height="492" x="79" y="237" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="list_subway" itemRendererSkinName="subway_list">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<e:Button id="btn_card" label="" y="127" skinName="card_qch" right="0"/>
+	<e:Button id="btn_xiaoshi" label="Button" anchorOffsetX="0" width="478.79" anchorOffsetY="0" height="800" left="0" top="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="storageBg_jpg" source.down="storageBg_jpg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="group_purchase" width="325" height="170" x="71" y="363" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="imgMessageBox_png" anchorOffsetX="0" left="0" top="0" width="326" anchorOffsetY="0" height="169"/>
+		<e:Label text="确认是否购买此商品" anchorOffsetX="0" width="271.21" anchorOffsetY="0" height="30" top="36" textColor="0xef550b" fontFamily="KaiTi" horizontalCenter="0"/>
+		
+		
+		<e:Button id="btn_purchase" label="确定" x="30" y="112" skinName="queding_qch"/>
+	
+		
+
+		<e:Button id="btn_quxiao" label="取消" x="194" y="112"  skinName="quxiao_qch" />
+
+		<e:Button id="btn_cha" label="" x="279.06" y="-7.94" anchorOffsetX="0" width="43.94" anchorOffsetY="0" height="43.94">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="resource/art/btnDelete.png" source.down="resource/art/btnDelete.png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="label_shuxin" text="aaa" x="43" y="78" anchorOffsetX="0" width="239"/>
+	</e:Group>
+	<e:Group id="group_failure" width="335" height="165" x="71" y="363" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="imgMessageBox_png" anchorOffsetX="0" width="326" anchorOffsetY="0" height="169" scaleX="1" scaleY="1" left="0" top="0"/>
+		<e:Label text="余额不足" anchorOffsetX="0" width="121.21" anchorOffsetY="0" height="30" top="36" textColor="0xEF550B" fontFamily="KaiTi" horizontalCenter="0"/>
+		<e:Button id="btn_quxiao0" label="取消" y="107.04" skinName="quxiao_qch" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="group_chenggong" width="335" height="165" x="71" y="363" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="imgMessageBox_png" anchorOffsetX="0" width="326" anchorOffsetY="0" height="169" scaleX="1" scaleY="1" left="-2" top="0"/>
+		<e:Label text="购买成功" anchorOffsetX="0" width="121.21" anchorOffsetY="0" height="30" top="36" textColor="0xEF550B" fontFamily="KaiTi" horizontalCenter="0"/>
+		<e:Button id="btn_purchase0" label="确定" x="117" y="97" skinName="queding_qch"/>
+	</e:Group>
+	<e:Group width="300" height="150" y="0" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="imgBrands_png" anchorOffsetX="0" width="300" anchorOffsetY="0" height="150" left="0" top="-13"/>
+		<e:Label text="总碳量：" x="111" y="75" textColor="0x0f0e0e" size="20" bold="true"/>
+		<e:Label id="label_money" text="10000" x="184.03" y="75" textColor="0x0a0909" size="20" italic="true" bold="true"/>
+		<e:Image source="touxiang_jpg" x="26.67" y="46" anchorOffsetX="0" width="83" anchorOffsetY="0" height="83"/>
+		<e:Label text="昵称：Subwaygo" x="111" y="50" size="20" textColor="0x0c0c0c" bold="true"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="item_allSkin" width="385" height="143" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16f8448edc9" ></w:Config>
+	<e:Image id="train_image" height="89.33" y="0" anchorOffsetX="0" anchorOffsetY="0" left="79" right="0" source="{data.image}"/>
+	<e:Label x="91.5" y="94.33" height="25" anchorOffsetX="0" width="101" size="25" text="{data.name}"/>
+	<e:Label text="状态：" x="214" y="94.33" size="25" anchorOffsetX="0" width="75"/>
+	<e:Image id="state_image" width="75" height="33" x="289" y="89.33" anchorOffsetX="0" anchorOffsetY="0" source="{data.state}"/>
+	<e:Button id="shuxing_button" label="属性" x="85" y="27.17" width="40" height="40" skinName="button_shuxingSkin"/>
+	<e:Button id="run_button" label="运营" x="85" y="27.17" width="40" height="40" skinName="button_runSkin"/>
+</e:Skin>

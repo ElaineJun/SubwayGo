@@ -1,0 +1,25 @@
+{
+    "16f79df2c21": {
+        "path": "game\\MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAutoLayerMarkEnable": true
+    },
+    "16f888c6053": {
+        "path": "game\\GoodScene.ts",
+        "class": "GoodScene",
+        "parentPath": ""
+    },
+    "16f8a3ae1ab": {
+        "path": "game\\insubway.ts",
+        "class": "insubway",
+        "parentPath": ""
+    },
+    "16f8a410456": {
+        "path": "game\\InsubwayScene.ts",
+        "class": "InsubwayScene",
+        "parentPath": ""
+    }
+}

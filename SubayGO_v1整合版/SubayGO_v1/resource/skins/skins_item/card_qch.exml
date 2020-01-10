@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="card_qch" width="115" height="85" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down"  width.up="150" height.up="50" width.down="160" height.down="60">
+	<e:Image source="btnSign_png" includeIn="up" left="0" top="0" width="150" height="50"/>
+	<e:Image includeIn="down" x="-1" y="1" width="160" height="60" source="btnSign_png"/>
+	<e:Label text="卡片" includeIn="down" width="160" height="60" left="0" top="0" verticalAlign="middle" textAlign="center" bold="true" size="35" fontFamily="KaiTi" textColor="0x563010"/>
+	<e:Image includeIn="up" x="0" y="0" width="150" height="50" source=""/>
+	<e:Label text="卡片" includeIn="up" width="150" height="50" left="0" top="0" verticalAlign="middle" textAlign="center" textColor="0x563010" fontFamily="KaiTi" bold="true"/>
+</e:Skin>

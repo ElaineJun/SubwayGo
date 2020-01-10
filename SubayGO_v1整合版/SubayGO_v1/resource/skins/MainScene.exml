@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="480" height="800" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,down" >
+	<w:Config id="16f79df2c21" ></w:Config>
+	<e:Image source="homeBg_jpg" left="0" top="0"/>
+	<e:Image id="homeTrainImg" source="homeTrainImg_png" x="480" y="381"/>
+	<e:Group width="460" height="80" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" bottom="0">
+		<e:Button id="mbtnMessage" label="" x="0" width="80" height="60" skinName="mbtnMessage" verticalCenter="0"/>
+		<e:Button id="mbtnFriends" label="Button" x="120" width="80" height="60" skinName="mbtnFriends" verticalCenter="0"/>
+		<e:Button id="mbtnLock" label="Button" x="240" width="80" height="60" skinName="mbtnLock" verticalCenter="0"/>
+		<e:Button id="mbtnAbout" label="" x="360" width="80" height="60" skinName="mbtnAbout" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="Group_mbtn" width="150" height="180" y="174" anchorOffsetX="0" right="0">
+		<e:Button id="mbtntask" label="Button" skinName="mbtntask" left="0" bottom="0"/>
+		<e:Button id="mbtnstage" label="Button" skinName="mbtnstage" verticalCenter="0" left="0"/>
+		<e:Button id="mbtnfactory" label="Button" width="150" height="50" skinName="mbtnfactory" left="0" top="0"/>
+	</e:Group>
+	<e:Image source="imgBrand_png" width="300" horizontalCenter="0" top="0" height="150"/>
+	<e:Image id="headImage" width="83" height="83" x="117" y="45.5" anchorOffsetX="0" anchorOffsetY="0" source="touxiang_jpg"/>
+	<e:Label text="昵称：" x="201" y="51" anchorOffsetX="0" width="64" textColor="0x070707" verticalAlign="middle" textAlign="center" size="20" bold="true" anchorOffsetY="0" height="23"/>
+	<e:Label text="总碳量:" x="202" y="87" anchorOffsetX="0" width="71" textColor="0x070707" verticalAlign="middle" textAlign="center" size="20" bold="true" anchorOffsetY="0" height="23"/>
+	<e:Label id="ID_name" text="TiZhou" x="266" y="51" anchorOffsetY="0" height="25" anchorOffsetX="0" width="96" textColor="0x1abf8d" size="20" verticalAlign="middle" textAlign="left" bold="true"/>
+	<e:Label id="total_energynum" text="1000" x="282" y="86" anchorOffsetY="0" height="25" anchorOffsetX="0" width="81" textColor="0x1ABF8D" size="20" verticalAlign="middle" textAlign="left" bold="true"/>
+	<e:Image width="30" height="30" x="136" y="247.5" anchorOffsetX="0" anchorOffsetY="0" source="iconChilun_png" id="minigearImg0" visible="false"/>
+	<e:Image id="minigearImg1" width="30" height="30" x="158" y="231" anchorOffsetX="0" anchorOffsetY="0" source="iconChilun_png" visible="false"/>
+	<e:Image width="30" height="30" x="161" y="258" anchorOffsetX="0" anchorOffsetY="0" source="iconChilun_png" id="minigearImg2" visible="false"/>
+	<e:Button id="mbtnstrategy" label="Button" x="15" y="201.5" width="75" height="75" skinName="mbtnStrategy"/>
+	<e:Button id="mbtnInsubway" label="" x="25" y="296" width="50" height="50" skinName="mbtnInsubway">
+	</e:Button>
+</e:Skin>
